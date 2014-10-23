@@ -1,0 +1,38 @@
+/* Event style */
+.event-column {
+	border-left: 1px solid $lightGreyBorder;
+	background-color: $lightGreyBg;
+	height: 100%;
+	width: 600px;
+	margin-top: 7px;
+	position: relative;
+	.events-wrap {
+		margin: 0 10px 0 10px;
+		position: relative;
+		.event {
+			position: absolute;
+			border: 1px solid $lightGreyBg;
+			background-color: $white;
+			overflow: hidden;
+		}
+		.event-bar {
+			float: left;
+			height: 100%;
+			width: 3px;
+			background-color: $blue;
+		}
+		.event-title {
+			color: $blue;
+			font-size: 14px;
+			padding: 8px 0 0 10px;
+		}
+		.event-location {
+			color: $lightGreyFont;
+			font-size: 10px;
+			padding-left: 10px;
+		}
+	}
+}
+
+
+

@@ -1,0 +1,37 @@
+{
+	"name": "daily_calendar",
+	"version": "0.1.1",
+	"devDependencies": {
+		"grunt": "^0.4.5",
+		"grunt-cli": "^0.1.13",
+		"grunt-contrib-clean": "^0.6.0",
+		"grunt-contrib-concat": "^0.5.0",
+		"grunt-contrib-jasmine": "^0.8.0",
+		"grunt-contrib-jshint": "~0.10.0",
+		"grunt-contrib-nodeunit": "~0.4.1",
+		"grunt-contrib-sass": "^0.7.4",
+		"grunt-contrib-uglify": "~0.5.0",
+		"grunt-contrib-watch": "^0.6.1",
+		"grunt-sass": "^0.14.0"
+	},
+	"description": "my grunt app",
+	"main": "Gruntfile.js",
+	"dependencies": {
+		"grunt": "^0.4.5",
+		"grunt-contrib-handlebars": "^0.8.0",
+		"grunt-contrib-jshint": "^0.10.0",
+		"grunt-contrib-nodeunit": "^0.4.1",
+		"grunt-contrib-uglify": "^0.5.1",
+		"handlebars": "^2.0.0-alpha.4",
+		"jquery": "^2.1.1"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"grunt",
+		"app"
+	],
+	"author": "leo gong",
+	"license": "ISC"
+}

@@ -1,0 +1,16 @@
+/* Time style */
+.time-column {
+	text-align: right;
+	width: 60px;
+	margin: 0 5px;
+	li {
+		list-style: none;
+		font-size: 10px;
+		color: $lightGreyFont;
+		height: 30px;
+	}
+	.full-hour-label {
+		font-size: 14px;
+		color: $darkGreyFont;
+	}
+}

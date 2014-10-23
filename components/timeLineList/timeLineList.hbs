@@ -1,0 +1,9 @@
+<ul id="timeContainer" class="time-column">
+{{#each times}}
+	{{#if_even @index}}
+		<li> <span class="full-hour-label">{{time}}</span>{{ampm}}</li>
+	{{else}}
+		<li> <span>{{time}}</span></li>
+	{{/if_even}}
+{{/each}}
+</ul>

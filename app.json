@@ -1,0 +1,18 @@
+{
+	"pages": [{
+		"name": "index",
+		"template": "./template/index.hbs",
+		"sass": "index.scss",
+		"help": "",
+		"components": [{
+			"name": "person",
+			"template": "./template/components/person.hbs",
+			"sass": "person.scss",
+			"components": [{
+				"name": "email",
+				"template": "./template/components/email.hbs",
+				"sass": "email.scss"
+			}]
+		}]
+	}]
+}
